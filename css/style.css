@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.ms-container{
+    width: 50%;
+    height: 300px;
+    border: 1px solid black;
+   
+}
