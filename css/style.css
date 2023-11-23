@@ -4,10 +4,46 @@
     box-sizing: border-box;
 }
 
+:root{
+    font-size:22px;
+}
+
+.ms-grey{
+    color: #cbcbcb;
+}
 
 .ms-container{
-    width: 50%;
     height: 300px;
-    border: 1px solid black;
+    border: black 1px solid;
+    width: 600px;
    
+}
+
+.item{
+    display: none;
+}
+
+.item.active{
+    display: block;
+}
+
+
+img{
+    object-fit: fill;
+    width: 100%;
+    height: 300px;
+}
+
+.next,.previous {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.next {
+    top: 10px;
+}
+
+.previous{
+    bottom: 10px;
 }
